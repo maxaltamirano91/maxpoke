@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&display=swap');
+
+
+
+body{
+    font-family: Poppins ;
+    background-color: black;
+    margin:0px;
+    padding:0px;
+}
+
+/*---header--*/
+
+header
+{ 
+    background-color: black;
+    position: sticky;
+    top: 0px;
+}
+
+
+.nav {
+    display: flex;
+    justify-content:space-around;
+}
+/*header nav ul li
+{
+    display: inline-block;
+    list-style: none;
+    margin: 10px  110px;    
+}*/
+
+header nav ul li a
+{ 
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
+
+
+
+
+
+/*----------------------main----------------------------*/
+
+main {
+    background-color: black;
+}
+
+.maxpoke {
+    text-align: center;
+    height: 100vh;
+    background-image: url(../img/fondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.maxpoke h1 {
+    font-size: 130px;
+    color: white;
+    padding-top: 40px;
+    margin: 0px;
+}
+
+.maxpoke a {
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    margin: 4px;
+    padding: 4px;
+    border: solid white;
+    border-radius: 20px;
+}
+
+
+.nosotros {
+    font-size:20px;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.boton {
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.boton a {
+    text-decoration: none;
+    color: white;
+    margin: 2px;
+    padding: 2px;
+    border: solid white;
+}
+
+
+.productosdestacados div {
+    display: inline-block;
+    border: 1px solid grey;
+    width: 200px;
+    height: 350px;
+    margin: 20px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+}
+
+.productosdestacados {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.productosdestacados div img {
+    width: 200px;
+    height: 200px;
+
+}
+
+.p1 a {
+    text-decoration: none;
+}
+.p2 a {
+    text-decoration: none;
+}
+.p3 a {
+    text-decoration: none;
+}
+.p4 a {
+    text-decoration: none;
+}
+.p5 a {
+    text-decoration: none;
+}
+.p6 a {
+    text-decoration: none;
+}
+
+
+
+.whatsapp { 
+    position: fixed;
+    right: 40px;
+    bottom: 30px;
+}
+
+.whatsapp img {
+    width: 70px;
+    height: 70px;
+}
+
+
+.galeriaTitulo h3 {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    
+
+    
+}
+
+
+.galeria {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
+
+/*.galeria {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+*/
+
+
+.galeria img {
+    /*display: inline-block;*/
+    border: 1px solid white;
+    width: 500px;
+    height: 500px;  
+
+}
+
+
+
+
+/*.escondido {
+    display: none !important;
+}*/
+
+
+/*----------------locales--------------*/
+.locales h2 {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin: 50px;
+}
+
+/*.mapas div {
+    display: contents;
+    justify-content: space-evenly;
+    width: 200px;
+    height: 200px;
+}*/
+
+.grid {
+    margin-bottom: 30px;
+}
+.grid{
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+    grid-template-rows: 1fr 1fr ;
+    gap: 10px;
+    
+    
+}
+
+.local1 {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.local2 {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.local3 {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.local4 {
+    display: flex;
+    justify-content: center;
+    
+}
+
+/*-----------pedidoonline-------------------*/
+
+.video {
+    display: flex;
+    justify-content: center;
+}
+
+.muyPronto {
+    color: white;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+}
+
+/*-----------contacto-------------------*/
+
+.Reserva  {
+    display: flex;
+    justify-content: center;
+}
+
+.formulario {
+       font-size: medium;
+       color: white;
+       margin-top: 100px;
+
+}
+
+.form{
+    margin-left: 50px;
+}
+
+
+.footerContacto  nav ul{
+    margin-top: 450px;
+    display: flex;
+    justify-content: space-around;    
+}
+
+/*--------------GALERIA--------------*/
+
+
+.parent div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 0px -1px 5px 5px rgba(255,255,255,0.74);
+-webkit-box-shadow: 0px -1px 5px 5px rgba(255,255,255,0.74);
+-moz-box-shadow: 0px -1px 5px 5px rgba(255,255,255,0.74);
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 250px;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 2; }
+    .div2 { grid-area: 1 / 2 / 2 / 3; }
+    .div3 { grid-area: 1 / 3 / 2 / 4; }
+    .div4 { grid-area: 2 / 1 / 3 / 2; }
+    .div5 { grid-area: 2 / 2 / 3 / 3; }
+    .div6 { grid-area: 2 / 3 / 3 / 4; }
+    .div7 { grid-area: 3 / 1 / 4 / 2; }
+    .div8 { grid-area: 3 / 2 / 4 / 3; }
+    .div9 { grid-area: 3 / 3 / 4 / 4; }
+
+
+/*------------------footer-----------------------------*/
+
+footer {
+    background-color: black;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+    
+
+
+footer nav ul li img{
+    width: 60px;
+    height: 60px;  
+}
