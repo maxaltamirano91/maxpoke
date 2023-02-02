@@ -399,7 +399,14 @@ footer nav ul {
     justify-content: space-around;
 }
 
+.aniRedesSociales{
+    transition-duration: 1s;
+      
+}
 
+.aniRedesSociales:hover {
+        transform: rotatex(360deg);
+}
 
 footer nav ul li img {
     width: 60px;
