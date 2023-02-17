@@ -481,6 +481,13 @@ footer nav ul li img {
 
     }
 
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 10px;
+    }
+
 
 
     .whatsapp {
@@ -551,6 +558,13 @@ footer nav ul li img {
     .parent div img {
         width: 280px;
         object-fit: cover;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 10px;  
     }
 
     footer nav ul li img {
@@ -631,6 +645,13 @@ footer nav ul li img {
     .parent div img {
         width: 204px;
         object-fit: cover;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 10px;  
     }
 
     .whatsapp {
