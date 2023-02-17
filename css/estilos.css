@@ -72,5 +72,106 @@ main .GaleriaPrincipal div {
     height: 100%;
     object-fit: cover; }
 
+.parent {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 250px;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px; }
+  .parent img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+
 main .productosdestacados, main .GaleriaPrincipal div {
   display: grid; }
+
+@media screen and (max-width: 950px) and (min-width: 481px) {
+  .maxpoke {
+    height: 80vh; }
+    .maxpoke h1 {
+      font-size: 100px;
+      max-width: 95%; }
+    .maxpoke a {
+      font-size: 30px;
+      margin-top: 120px; }
+  .GaleriaPrincipal {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    grid-row-gap: 15px;
+    place-items: center;
+    margin-bottom: 20px; }
+    .GaleriaPrincipal div img {
+      width: 350px;
+      object-fit: cover; }
+  .parent {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    grid-row-gap: 15px;
+    place-items: center;
+    margin-bottom: 20px; }
+    .parent img {
+      width: 350px;
+      object-fit: cover; } }
+
+@media screen and (max-width: 480px) and (min-width: 351px) {
+  .maxpoke {
+    height: 70vh; }
+    .maxpoke h1 {
+      font-size: 70px;
+      max-width: 95%; }
+    .maxpoke a {
+      font-size: 25px;
+      margin-top: 100px; }
+  .GaleriaPrincipal {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    grid-row-gap: 15px;
+    place-items: center;
+    margin-bottom: 20px; }
+    .GaleriaPrincipal div img {
+      width: 280px;
+      object-fit: cover; }
+  .parent {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    grid-row-gap: 15px;
+    place-items: center;
+    margin-bottom: 20px; }
+    .parent div img {
+      width: 280px;
+      object-fit: cover; } }
+
+@media screen and (max-width: 350px) {
+  .maxpoke {
+    height: 57vh; }
+    .maxpoke h1 {
+      font-size: 50px;
+      max-width: 95%; }
+    .maxpoke a {
+      font-size: 20px;
+      margin-top: 100px; }
+  .productosdestacados div {
+    width: 150px;
+    height: 300px; }
+    .productosdestacados div h3 {
+      font-size: 15px;
+      margin-bottom: 30px;
+      margin-top: 20px; }
+    .productosdestacados div img {
+      width: 145px;
+      height: 145px; }
+  .parent {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    grid-row-gap: 15px;
+    place-items: center;
+    margin-bottom: 20px; }
+    .parent div img {
+      width: 204px;
+      object-fit: cover; } }
