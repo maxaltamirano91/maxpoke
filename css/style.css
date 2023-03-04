@@ -22,28 +22,6 @@ header {
 }
 
 
-/*.nav {
-    display: flex;
-    justify-content:space-around;
-}
-/*header nav ul li
-{
-    display: inline-block;
-    list-style: none;
-    margin: 10px  110px;    
-}*/
-
-/*header nav ul li a
-{ 
-    text-decoration: none;
-    color: whitesmoke;
-}*/
-
-
-
-
-
-
 
 /*----------------------main----------------------------*/
 
@@ -78,17 +56,6 @@ main {
     justify-content: center;
 }
 
-/*.maxpoke a {
-    font-size: 30px;
-    color: black;
-    text-decoration: none;
-    background-color: white;
-    margin: 4px;
-    padding: 4px;
-    border: solid white;
-    border-radius: 20px;
-}
-*/
 
 .nosotros {
     font-size: 20px;
@@ -116,11 +83,10 @@ main {
 
 .productosdestacados div {
 
-    /*display: inline-block;*/
+
     border: 1px solid grey;
     width: 200px;
     height: 350px;
-    /* margin: 20px 40px 20px 0px; */
     margin: 20px;
     color: black;
     text-align: center;
@@ -129,8 +95,7 @@ main {
 }
 
 .productosdestacados {
-    /*display: flex;
-    justify-content: space-evenly;*/
+
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
@@ -172,7 +137,7 @@ main {
 
 
 
-.whatsapp {
+/*.whatsapp {
     position: fixed;
     right: 40px;
     bottom: 30px;
@@ -181,7 +146,7 @@ main {
 .whatsapp img {
     width: 70px;
     height: 70px;
-}
+}*/
 
 
 .galeriaTitulo h3 {
@@ -199,9 +164,6 @@ main {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    /*box-shadow: 0px -1px 5px 5px rgba(255,255,255,0.74);
-    -webkit-box-shadow: 0px -1px 5px 5px rgba(255,255,255,0.74);
-    -moz-box-shadow: 0px -1px 5px 5px rgba(255,255,255,0.74);*/
 }
 
 .GaleriaPrincipal {
@@ -213,24 +175,6 @@ main {
     margin: 0px 50px 20px 50px;
 }
 
-/* .div1 { grid-area: 1 / 1 / 2 / 2; }
-    .div2 { grid-area: 1 / 2 / 2 / 3; }
-    .div3 { grid-area: 1 / 3 / 2 / 4; }
-    .div4 { grid-area: 2 / 1 / 3 / 2; }
-    .div5 { grid-area: 2 / 2 / 3 / 3; }
-    .div6 { grid-area: 2 / 3 / 3 / 4; }
-    .div7 { grid-area: 3 / 1 / 4 / 2; }
-    .div8 { grid-area: 3 / 2 / 4 / 3; }
-    .div9 { grid-area: 3 / 3 / 4 / 4; }*/
-
-
-
-
-
-/*.escondido {
-    display: none !important;
-}*/
-
 
 /*----------------locales--------------*/
 .locales h2 {
@@ -240,12 +184,6 @@ main {
     margin: 50px;
 }
 
-/*.mapas div {
-    display: contents;
-    justify-content: space-evenly;
-    width: 200px;
-    height: 200px;
-}*/
 
 .grid {
     margin-bottom: 30px;
@@ -301,9 +239,6 @@ main {
 
 .muyPronto h2 {
 
-    /*box-shadow: 44px 24px 93px -4px rgba(250,250,250,0.78);
-    -webkit-box-shadow: 44px 24px 93px -4px rgba(250,250,250,0.78);
-    -moz-box-shadow: 44px 24px 93px -4px rgba(250,250,250,0.78); */
     text-shadow: 4px 4px 2px rgba(255,255,255,0.6);
     margin-top: 20px;
     margin-bottom: 10px;
@@ -345,17 +280,6 @@ main {
     color: white;
 }
 
-/* .formulario {
-    font-size: medium;
-    color: white;
-    margin-top: 100px;
-
-}
-
-.form {
-    margin-left: 50px;
-} */
-
 
 .footerContacto nav ul {
     margin-top: 90px;
@@ -365,14 +289,14 @@ main {
 
 /*--------------GALERIA--------------*/
 
- 
+.galeriaTitulo{
+    margin: 20px;
+}
+
 .parent div img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    /*box-shadow: 0px -1px 5px 5px rgba(255,255,255,0.74);
-    -webkit-box-shadow: 0px -1px 5px 5px rgba(255,255,255,0.74);
-    -moz-box-shadow: 0px -1px 5px 5px rgba(255,255,255,0.74);*/
 }
 
 .parent {
@@ -382,16 +306,6 @@ main {
     grid-column-gap: 15px;
     grid-row-gap: 15px;
 }
-
-/*.div1 { grid-area: 1 / 1 / 2 / 2; }
-    .div2 { grid-area: 1 / 2 / 2 / 3; }
-    .div3 { grid-area: 1 / 3 / 2 / 4; }
-    .div4 { grid-area: 2 / 1 / 3 / 2; }
-    .div5 { grid-area: 2 / 2 / 3 / 3; }
-    .div6 { grid-area: 2 / 3 / 3 / 4; }
-    .div7 { grid-area: 3 / 1 / 4 / 2; }
-    .div8 { grid-area: 3 / 2 / 4 / 3; }
-    .div9 { grid-area: 3 / 3 / 4 / 4; }*/
 
 
 /*------------------footer-----------------------------*/
@@ -490,10 +404,9 @@ footer nav ul li img {
 
 
 
-    .whatsapp {
+ /*   .whatsapp {
         position: fixed;
-    }
-
+    }*/
     .video {
         width: 800px ;
         height: 400px;
@@ -625,12 +538,6 @@ footer nav ul li img {
 
     .GaleriaPrincipal {
         display: none;
-        /*display: grid;
-        grid-template-columns: 1fr;
-        grid-auto-rows: auto;
-        grid-row-gap: 15px;
-        place-items: center;
-        margin-bottom: 20px;*/
     }
 
     .parent {
