@@ -329,7 +329,7 @@ footer nav ul li img {
     height: auto;
 } */
 
-/*!------- MEDIA QUERY-----*/
+!------- MEDIA QUERY----- /*
 
 @media screen and (max-width:950px) and (min-width:481px) {
 
@@ -391,11 +391,6 @@ footer nav ul li img {
         gap: 10px;
     }
 
-
-
- /*   .whatsapp {
-        position: fixed;
-    }*/
     .video {
         width: 800px ;
         height: 400px;
@@ -407,12 +402,13 @@ footer nav ul li img {
         height: 50px;
     }
 
-} */
+} 
 
 
-/*!------- MEDIA QUERY-----*/
+/*!------- MEDIA QUERY-----
 
-@media screen and (max-width:480px) and (min-width:351px) {
+@media screen and (max-width:480px) and (min-width:351px)
+{
 
     .maxpoke {
         height: 70vh;
@@ -479,7 +475,7 @@ footer nav ul li img {
 
 
 
-/*!------- MEDIA QUERY-----*/
+/*!------- MEDIA QUERY-----
 
 @media screen and (max-width:350px) {
 
@@ -549,14 +545,4 @@ footer nav ul li img {
         grid-template-rows: 1fr 1fr 1fr;
         gap: 10px;  
     }
-
-    .whatsapp {
-        position: fixed;
-    }
-
-    /*footer nav ul li img {
-        width: 30px;
-        height: 30px;
-    }*/
-}
-
+    */
