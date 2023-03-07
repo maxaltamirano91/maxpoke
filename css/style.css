@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&display=swap');
+/* /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&display=swap');
 
 
 
@@ -212,12 +212,12 @@ main {
 } */
 
 /*-------------pedidoonline-------------------*/
-
+/* 
 .video {
     margin-top: 30px;
     display: flex;
     justify-content: center;
-}
+} */
 
 /* .muyPronto {
     color: white;
@@ -239,7 +239,7 @@ main {
 
 } */
 
-@keyframes muyPronto {
+/* @keyframes muyPronto {
    from {
         margin-left: 100%;
         width: 200%;
@@ -254,7 +254,7 @@ main {
 .footerPedidoOnline {
 
     margin-top: 50px;
-}
+} */
 
 /*-----------contacto-------------------*/
 
@@ -407,7 +407,7 @@ footer nav ul li img {
         height: 50px;
     }
 
-}
+} */
 
 
 /*!------- MEDIA QUERY-----*/
