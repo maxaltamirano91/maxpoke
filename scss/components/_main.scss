@@ -1,82 +1,99 @@
-main {
-  .maxpoke {
-    text-align: center;
-    height: 100vh;
-    background-image: url(../img/fondo.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    h1 {
-      font-size: 130px;
-      color: white;
-      padding-top: 40px;
-      margin: 0px;
-    }
-    a {
-      font-size: 30px;
-      margin-top: 150px;
-    }
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&display=swap");
+
+
+body {
+  font-family: Poppins;
+  background-color: black;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+  header {
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0px;
+    width: 100%;
   }
-  section {
-    .nosotros {
-      font-size: 20px;
-      color: white;
+
+  main {
+    background-color: black;
+    .maxpoke {
       text-align: center;
-      margin-top: 50px;
-      margin-bottom: 50px;
-    }
-    .botton {
-      font-size: 30px;
-      text-align: center;
-      text-decoration: none;
-      margin-bottom: 20px;
-      a {
-        text-decoration: none;
+      height: 100vh;
+      background-image: url(../img/fondo.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      h1 {
+        font-size: 130px;
         color: white;
-        margin: 2px;
-        padding: 2px;
-        border: solid white;
+        padding-top: 40px;
+        margin: 0px;
+      }
+      a {
+        font-size: 30px;
+        margin-top: 150px;
       }
     }
-  }
-
-  .productosdestacados {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    margin-left: 50px;
-    margin-right: 50px;
-    overflow-x: auto;
-    place-items: center;
-    @extend %grid;
-    div {
-      border: 1px solid grey;
-      width: 200px;
-      height: 350px;
-      margin: 20px;
-      color: black;
-      text-align: center;
-      text-decoration: none;
-      background-color: white;
-
-      img {
-        width: 198px;
-        height: 200px;
+    section {
+      .nosotros {
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+      .boton {
+        font-size: 30px;
+        text-align: center;
+        text-decoration: none;
+        margin-bottom: 20px;
+        a {
+          text-decoration: none;
+          color: white;
+          margin: 2px;
+          padding: 2px;
+          border: solid white;
+        }
       }
     }
-  }
 
-  .galeriaTitulo {
-    h3 {
-      font-size: 30px;
-      display: flex;
-      justify-content: center;
-      color: white;
+    .productosdestacados {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: auto;
+      margin-left: 50px;
+      margin-right: 50px;
+      overflow-x: auto;
+      place-items: center;
+      @extend %grid;
+      div {
+        border: 1px solid grey;
+        width: 200px;
+        height: 350px;
+        margin: 20px;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        background-color: white;
+
+        img {
+          width: 198px;
+          height: 200px;
+        }
+      }
     }
-  }
 
-  .GaleriaPrincipal {
-    div {
+    .galeriaTitulo {
+      h3 {
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        color: white;
+      }
+    }
+
+    .GaleriaPrincipal {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       grid-auto-rows: 250px;
@@ -91,20 +108,134 @@ main {
       }
     }
   }
-}
 
-//Galeria
+  footer nav ul {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
 
-.parent {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-auto-rows: 250px;
-  grid-column-gap: 15px;
-  grid-row-gap: 15px;
-  img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    li {
+      list-style: none;
+      .aniRedesSociales {
+        transition-duration: 1s;
+      }
+      .aniRedesSociales:hover {
+        transform: rotatex(360deg);
+      }
+      img {
+        width: 60px;
+        height: 60px;
+      }
+    }
+  }
+
+  //Galeria
+
+  .galeriaTitulo {
+    margin: 20px;
+  }
+  .parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 250px;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    margin-bottom: 20px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  //Contacto
+
+  .Reserva {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+
+  .text-color {
+    color: white;
+  }
+
+  .footerContacto nav ul {
+    margin-top: 280px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  //locales
+
+  .locales h2 {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin: 50px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 30px;
+
+    .local1 {
+      display: flex;
+      justify-content: center;
+    }
+
+    .local2 {
+      display: flex;
+      justify-content: center;
+    }
+
+    .local3 {
+      display: flex;
+      justify-content: center;
+    }
+
+    .local4 {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  //PEDIDOS ONLINE
+
+  .muyPronto {
+    color: white;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    h2 {
+      text-shadow: 4px 4px 2px rgba(255, 255, 255, 0.6);
+      margin-top: 20px;
+      margin-bottom: 10px;
+      animation-name: muyPronto;
+      animation-duration: 3s;
+      animation-timing-function: ease-in-out;
+      animation-direction: initial;
+      animation-delay: 1s;
+    }
+  }
+
+  .video {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .footerPedidoOnline {
+    margin-top: 100px;
   }
 }
 
+
+
+
+@import"../base/variables";
+@import "./responsive.scss";

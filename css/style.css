@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&display=swap');
 
 
 
@@ -12,7 +12,7 @@ body {
 
 }
 
-/*---header--*/
+/*---header--
 
 header {
     background-color: rgb(255, 255, 255);
@@ -23,7 +23,7 @@ header {
 
 
 
-/*----------------------main----------------------------*/
+/*----------------------main----------------------------
 
 main {
     background-color: black;
@@ -51,10 +51,11 @@ main {
     margin-top: 150px;
 }
 
+
 .maxpoke div {
     display: flex;
     justify-content: center;
-}
+} 
 
 
 .nosotros {
@@ -133,20 +134,8 @@ main {
 
 .p6 a {
     text-decoration: none;
-}
+}*
 
-
-
-/*.whatsapp {
-    position: fixed;
-    right: 40px;
-    bottom: 30px;
-}
-
-.whatsapp img {
-    width: 70px;
-    height: 70px;
-}*/
 
 
 .galeriaTitulo h3 {
@@ -173,11 +162,11 @@ main {
     grid-column-gap: 15px;
     grid-row-gap: 15px;
     margin: 0px 50px 20px 50px;
-}
+}/*
 
 
 /*----------------locales--------------*/
-.locales h2 {
+/* .locales h2 {
     display: flex;
     justify-content: space-around;
     color: white;
@@ -220,7 +209,7 @@ main {
     display: flex;
     justify-content: center;
 
-}
+} */
 
 /*-------------pedidoonline-------------------*/
 
@@ -230,7 +219,7 @@ main {
     justify-content: center;
 }
 
-.muyPronto {
+/* .muyPronto {
     color: white;
     font-style: italic;
     display: flex;
@@ -248,7 +237,7 @@ main {
     animation-direction: initial;
     animation-delay: 1s;
 
-}
+} */
 
 @keyframes muyPronto {
    from {
@@ -269,7 +258,7 @@ main {
 
 /*-----------contacto-------------------*/
 
-.Reserva {
+/* .Reserva {
     margin-top: 20px;
     display: flex;
     justify-content: center;
@@ -285,11 +274,11 @@ main {
     margin-top: 90px;
     display: flex;
     justify-content: space-around;
-}
+} */
 
 /*--------------GALERIA--------------*/
 
-.galeriaTitulo{
+/* .galeriaTitulo{
     margin: 20px;
 }
 
@@ -305,11 +294,11 @@ main {
     grid-auto-rows: 250px;
     grid-column-gap: 15px;
     grid-row-gap: 15px;
-}
+} */
 
 
 /*------------------footer-----------------------------*/
-
+/* 
 footer {
     background-color: black;
 }
@@ -338,7 +327,7 @@ footer nav ul li img {
 .body {
     width: 100%;
     height: auto;
-}
+} */
 
 /*!------- MEDIA QUERY-----*/
 
@@ -565,9 +554,9 @@ footer nav ul li img {
         position: fixed;
     }
 
-    footer nav ul li img {
+    /*footer nav ul li img {
         width: 30px;
         height: 30px;
-    }
+    }*/
 }
 

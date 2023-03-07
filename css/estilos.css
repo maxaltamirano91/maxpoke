@@ -1,89 +1,167 @@
-main .maxpoke {
-  text-align: center;
-  height: 100vh;
-  background-image: url(../img/fondo.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
-  main .maxpoke h1 {
-    font-size: 130px;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&display=swap");
+body {
+  font-family: Poppins;
+  background-color: black;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+  body header {
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    width: 100%; }
+  body main {
+    background-color: black; }
+    body main .maxpoke {
+      text-align: center;
+      height: 100vh;
+      background-image: url(../img/fondo.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+      body main .maxpoke h1 {
+        font-size: 130px;
+        color: white;
+        padding-top: 40px;
+        margin: 0px; }
+      body main .maxpoke a {
+        font-size: 30px;
+        margin-top: 150px; }
+    body main section .nosotros {
+      font-size: 20px;
+      color: white;
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 50px; }
+    body main section .boton {
+      font-size: 30px;
+      text-align: center;
+      text-decoration: none;
+      margin-bottom: 20px; }
+      body main section .boton a {
+        text-decoration: none;
+        color: white;
+        margin: 2px;
+        padding: 2px;
+        border: solid white; }
+    body main .productosdestacados {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: auto;
+      margin-left: 50px;
+      margin-right: 50px;
+      overflow-x: auto;
+      place-items: center; }
+      body main .productosdestacados div {
+        border: 1px solid grey;
+        width: 200px;
+        height: 350px;
+        margin: 20px;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        background-color: white; }
+        body main .productosdestacados div img {
+          width: 198px;
+          height: 200px; }
+    body main .galeriaTitulo h3 {
+      font-size: 30px;
+      display: flex;
+      justify-content: center;
+      color: white; }
+    body main .GaleriaPrincipal {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-auto-rows: 250px;
+      grid-column-gap: 15px;
+      grid-row-gap: 15px;
+      margin: 0px 50px 20px 50px; }
+      body main .GaleriaPrincipal img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+  body footer nav ul {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px; }
+    body footer nav ul li {
+      list-style: none; }
+      body footer nav ul li .aniRedesSociales {
+        transition-duration: 1s; }
+      body footer nav ul li .aniRedesSociales:hover {
+        transform: rotatex(360deg); }
+      body footer nav ul li img {
+        width: 60px;
+        height: 60px; }
+  body .galeriaTitulo {
+    margin: 20px; }
+  body .parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 250px;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    margin-bottom: 20px; }
+    body .parent img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+  body .Reserva {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    color: white; }
+  body .text-color {
+    color: white; }
+  body .footerContacto nav ul {
+    margin-top: 280px;
+    display: flex;
+    justify-content: space-around; }
+  body .locales h2 {
+    display: flex;
+    justify-content: space-around;
     color: white;
-    padding-top: 40px;
-    margin: 0px; }
-  main .maxpoke a {
-    font-size: 30px;
-    margin-top: 150px; }
-
-main section .nosotros {
-  font-size: 20px;
-  color: white;
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px; }
-
-main section .botton {
-  font-size: 30px;
-  text-align: center;
-  text-decoration: none;
-  margin-bottom: 20px; }
-  main section .botton a {
-    text-decoration: none;
+    margin: 50px; }
+  body .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 30px; }
+    body .grid .local1 {
+      display: flex;
+      justify-content: center; }
+    body .grid .local2 {
+      display: flex;
+      justify-content: center; }
+    body .grid .local3 {
+      display: flex;
+      justify-content: center; }
+    body .grid .local4 {
+      display: flex;
+      justify-content: center; }
+  body .muyPronto {
     color: white;
-    margin: 2px;
-    padding: 2px;
-    border: solid white; }
+    font-style: italic;
+    display: flex;
+    justify-content: center; }
+    body .muyPronto h2 {
+      text-shadow: 4px 4px 2px rgba(255, 255, 255, 0.6);
+      margin-top: 20px;
+      margin-bottom: 10px;
+      animation-name: muyPronto;
+      animation-duration: 3s;
+      animation-timing-function: ease-in-out;
+      animation-direction: initial;
+      animation-delay: 1s; }
+  body .video {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center; }
+  body .footerPedidoOnline {
+    margin-top: 100px; }
 
-main .productosdestacados {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: auto;
-  margin-left: 50px;
-  margin-right: 50px;
-  overflow-x: auto;
-  place-items: center; }
-  main .productosdestacados div {
-    border: 1px solid grey;
-    width: 200px;
-    height: 350px;
-    margin: 20px;
-    color: black;
-    text-align: center;
-    text-decoration: none;
-    background-color: white; }
-    main .productosdestacados div img {
-      width: 198px;
-      height: 200px; }
-
-main .galeriaTitulo h3 {
-  font-size: 30px;
-  display: flex;
-  justify-content: center;
-  color: white; }
-
-main .GaleriaPrincipal div {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-auto-rows: 250px;
-  grid-column-gap: 15px;
-  grid-row-gap: 15px;
-  margin: 0px 50px 20px 50px; }
-  main .GaleriaPrincipal div img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; }
-
-.parent {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-auto-rows: 250px;
-  grid-column-gap: 15px;
-  grid-row-gap: 15px; }
-  .parent img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; }
-
-main .productosdestacados, main .GaleriaPrincipal div {
+body main .productosdestacados, body main .GaleriaPrincipal {
   display: grid; }
 
 @media screen and (max-width: 950px) and (min-width: 481px) {
@@ -95,16 +173,21 @@ main .productosdestacados, main .GaleriaPrincipal div {
     .maxpoke a {
       font-size: 30px;
       margin-top: 120px; }
+  .nosotros {
+    font-size: 17px;
+    margin-top: 45px;
+    margin-bottom: 45px; }
   .GaleriaPrincipal {
     display: grid;
     grid-template-columns: 1fr;
     grid-auto-rows: auto;
     grid-row-gap: 15px;
-    place-items: center;
-    margin-bottom: 20px; }
-    .GaleriaPrincipal div img {
-      width: 350px;
-      object-fit: cover; }
+    place-items: center; }
+    .GaleriaPrincipal div {
+      margin-bottom: 20px; }
+      .GaleriaPrincipal div img {
+        width: 350px;
+        object-fit: cover; }
   .parent {
     display: grid;
     grid-template-columns: 1fr;
@@ -116,6 +199,7 @@ main .productosdestacados, main .GaleriaPrincipal div {
       width: 350px;
       object-fit: cover; } }
 
+      
 @media screen and (max-width: 480px) and (min-width: 351px) {
   .maxpoke {
     height: 70vh; }
@@ -175,3 +259,6 @@ main .productosdestacados, main .GaleriaPrincipal div {
     .parent div img {
       width: 204px;
       object-fit: cover; } }
+
+body main .productosdestacados, body main .GaleriaPrincipal {
+  display: grid; }
